@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+  font-size: 36px;
+}
+
+header p {
+  color: #6b7280;
+}
+
+.problem-input,
+.analysis {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.problem-input h2 {
+  margin-top: 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin: 25px;
+}
+
+.analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+}
+
+.badges span {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #e5e7eb;
+  font-size: 14px;
+}
+
+.analysis-section {
+  margin-top: 30px;
+}
+
+.analysis-section h3 {
+  margin-bottom: 10px;
+}
+
+.analysis-section li {
+  margin-bottom: 8px;
+}
+
+.complexity {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.complexity > div {
+  flex: 1;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f3f4f6;
+}
+
+.complexity h3 {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.complexity p {
+  font-size: 20px;
+  font-weight: bold;
+}
